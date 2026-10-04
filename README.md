@@ -111,9 +111,3 @@ Depois, acesse `http://localhost:5173`. A API ficará disponível em `http://loc
 - **Repositório:** https://github.com/joao-tragancin/reuse-hub
 
 As instruções completas estão no arquivo [`DEPLOY.md`](./DEPLOY.md).
-
-## Vídeo de apresentação
-
-[Adicionar link do vídeo no YouTube]
-
-O roteiro sugerido está no arquivo [`ROTEIRO-VIDEO.md`](./ROTEIRO-VIDEO.md).
