@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: reuse-hub-api
+    runtime: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter api build
+    startCommand: pnpm --filter api db:push && pnpm --filter api db:seed && pnpm --filter api start
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        value: file:./prisma/prod.db
+      - key: CORS_ORIGIN
+        sync: false

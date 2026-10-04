@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.local
+*.db
+*.db-journal
+apps/api/prisma/migrations/
+.DS_Store
+*.log
+*.tsbuildinfo
+apps/web/vite.config.js
+apps/web/vite.config.d.ts

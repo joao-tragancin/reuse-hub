@@ -1,0 +1,14 @@
+{
+  "name": "reuse-hub",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.2",
+  "scripts": {
+    "dev": "pnpm --parallel --filter ./apps/* dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev",
+    "build": "pnpm --filter api build && pnpm --filter web build",
+    "db:push": "pnpm --filter api db:push",
+    "db:seed": "pnpm --filter api db:seed"
+  }
+}
