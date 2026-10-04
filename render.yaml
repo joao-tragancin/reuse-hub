@@ -8,6 +8,6 @@ services:
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
-        value: file:./prisma/prod.db
+        value: file:./prod.db
       - key: CORS_ORIGIN
         sync: false

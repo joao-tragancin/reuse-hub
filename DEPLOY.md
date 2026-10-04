@@ -29,6 +29,6 @@ No plano gratuito, o SQLite pode ser recriado após uma nova publicação ou rei
 3. Salve a variável e aguarde o serviço reiniciar.
 4. Abra o frontend e teste o cadastro de um item.
 
-## 4. Finalizar o README
+## 4. Conferir os links
 
-Substitua os três campos pendentes na seção **Deploy** do `README.md` e adicione o link do vídeo quando ele for publicado.
+Verifique se os endereços do frontend, do backend e do repositório estão atualizados na seção **Deploy** do `README.md`.

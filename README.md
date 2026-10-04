@@ -106,8 +106,8 @@ Depois, acesse `http://localhost:5173`. A API ficará disponível em `http://loc
 
 ## Deploy
 
-- **Frontend:** [adicionar link da Vercel]
-- **Backend:** [adicionar link do Render]
+- **Frontend:** https://reuse-hub-two.vercel.app
+- **Backend:** https://reuse-hub-api.onrender.com
 - **Repositório:** https://github.com/joao-tragancin/reuse-hub
 
 As instruções completas estão no arquivo [`DEPLOY.md`](./DEPLOY.md).
